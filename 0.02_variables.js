@@ -36,22 +36,24 @@ var hotDogBuns = 6;
 var train = 60;
 
 var myNumber = 0;
-var myNumber1 = myNumber + 10;
-var myNumber2 = myNumber1 - 1;
-var myNumber3 = myNumber2 * 9;
-var myNumber4 = myNumber3 / 7;
+myNumber = myNumber + 10;
+console.log(myNumber)
+myNumber = myNumber - 1;
+console.log(myNumber)
+myNumber = myNumber * 9;
+console.log(myNumber)
+myNumber = myNumber / 7;
+console.log(myNumber)
 
-console.log(myNumber1);
-console.log(myNumber2);
-console.log(myNumber3);
-console.log(myNumber4);
+
+
 
 var currentAge = 28;
 var maxAge = 100;
 var perDay = 3;
 var daysPerYear = 365;
 
-console.log("You will need " + ((maxAge - currentAge)) * perDay) + " " + "sandwiches to last you until the ripe old age of 100.");
+console.log("You will need " + ((maxAge - currentAge) * perDay) + " " + "sandwiches to last you until the ripe old age of 100.");
 
 
 
