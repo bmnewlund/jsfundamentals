@@ -31,7 +31,16 @@ if ( name[0] == name[0].toUpperCase() ) {
 
 
 
-
+var age = 16
+if (age >= 18) {
+	console.log("Yay you can vote!");
+} else if (age >= 21) {
+	console.log("Yay you can drink!");
+} else if (age >= 25) {
+	console.log("Yay your rates on your rental car go down!")
+} else {
+	console.log("sorry too young to do anything!")
+}
 
 
 
