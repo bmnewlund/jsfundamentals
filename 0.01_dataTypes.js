@@ -8,7 +8,7 @@
 'Hello you guys';
 "it's a wonderful day";
 
-console.log('Thomas said "I think grass is green!"'.toUpperCase());
+console.log('"Thomas said "I think grass is green!"'.toUpperCase());
 
 console.log('Could\'t things get any better'.length); 
 // the backslash in the above comment takes out the ' from the sentence
