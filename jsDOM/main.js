@@ -30,7 +30,7 @@ function addItem(){
 	ulist.appendChild(li);
 }
 
-// create element will build a new one of your chosing.
+// create element will build a new one of your chosing
 // let test = docuent.createElement('li');
 
 
